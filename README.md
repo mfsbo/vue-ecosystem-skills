@@ -6,11 +6,11 @@
 
 ## Why?
 
-Getting agents to follow the latest conventions in the Vue ecosystem is difficult. All agents still struggle with [Vue 3.5](https://blog.vuejs.org/posts/vue-3-5) APIs out of the box — and with Vue 3.6 on the horizon alongside [Pinia v3](https://github.com/vuejs/pinia/blob/v3/packages/pinia/CHANGELOG.md), [Vue Router v5](https://github.com/vuejs/router/blob/main/packages/router/CHANGELOG.md), [Reka UI v2](https://github.com/unovue/reka-ui), and [VueUse v14](https://github.com/vueuse/vueuse), getting the right context to agents is as important as ever.
+Getting agents to follow the latest conventions in the Vue ecosystem is difficult. All agents still struggle with [Vue 3.5](https://blog.vuejs.org/posts/vue-3-5) APIs out of the box - and with Vue 3.6 on the horizon alongside recent releases for [Pinia v3](https://github.com/vuejs/pinia/blob/v3/packages/pinia/CHANGELOG.md), [Vue Router v5](https://github.com/vuejs/router/blob/main/packages/router/CHANGELOG.md), [Reka UI v2](https://github.com/unovue/reka-ui), and [VueUse v14](https://github.com/vueuse/vueuse), getting the right context to agents is as important as ever.
 
-Hand-crafted rules are great, but maintaining them is a burden — especially when working across several packages that are all actively releasing. Author-shipped skills ([skills-npm](https://github.com/antfu/skills-npm)) are the ideal solution, but most Vue libraries don't ship them yet.
+Hand-crafted rules are great, but maintaining them is a burden - especially when working across several packages that are all actively releasing. Author-shipped skills ([skills-npm](https://github.com/antfu/skills-npm)) are the ideal solution, but most Vue libraries don't ship them yet.
 
-This repo bridges the gap: pre-generated skills from real sources (docs, GitHub issues, discussions, changelogs) using [skilld](https://github.com/harlan-zw/skilld). Install once, get version-aware context for the entire Vue ecosystem — no manual curation, no author opt-in, and no LLM tokens spent on generation.
+This repo bridges the gap: pre-generated skills from real sources (docs, GitHub issues, discussions, changelogs) using [skilld](https://github.com/harlan-zw/skilld). Install once, get version-aware context for the entire Vue ecosystem - no manual curation, no author opt-in, and no LLM tokens spent on generation.
 
 <p align="center">
 <table>
@@ -42,7 +42,7 @@ Or if you prefer [skills.sh](https://skills.sh/):
 npx skills add harlan-zw/vue-ecosystem-skills
 ```
 
-**Ensure skills are used** — Add this to your agent file (e.g. `CLAUDE.md`, `.cursorrules`):
+**Ensure skills are used** - Add this to your agent file (e.g. `CLAUDE.md`, `.cursorrules`):
 
 ```
 Before modifying code, evaluate each installed skill against the current task.
@@ -135,11 +135,11 @@ npx skilld add harlan-zw/vue-ecosystem-skills --skill tresjs       # 5.5.0
 ## Related
 
 - [skilld](https://github.com/harlan-zw/skilld) - Generate AI agent skills from your NPM dependencies
-- [vuejs-ai/skills](https://github.com/vuejs-ai/skills) — Hand-crafted Vue 3 best practices skills
-- [antfu/skills](https://github.com/antfu/skills) — Anthony Fu's curated skills for Vue/Vite/Nuxt
-- [vueuse/vueuse-skills](https://github.com/vueuse/vueuse-skills) — Agent skills for VueUse
-- [onmax/nuxt-skills](https://github.com/onmax/nuxt-skills) — Agent skills for Nuxt
-- [RuleKit](https://rulekit.dev) — Paid curated agent rules for Vue/Nuxt by posva
+- [vuejs-ai/skills](https://github.com/vuejs-ai/skills) - Hand-crafted Vue 3 best practices skills
+- [antfu/skills](https://github.com/antfu/skills) - Anthony Fu's curated skills for Vue/Vite/Nuxt
+- [vueuse/vueuse-skills](https://github.com/vueuse/vueuse-skills) - Agent skills for VueUse
+- [onmax/nuxt-skills](https://github.com/onmax/nuxt-skills) - Agent skills for Nuxt
+- [RuleKit](https://rulekit.dev) - Paid curated agent rules for Vue/Nuxt by posva
 
 ## License
 
