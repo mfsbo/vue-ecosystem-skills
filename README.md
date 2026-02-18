@@ -88,40 +88,30 @@ npx skilld add harlan-zw/vue-ecosystem-skills --skill tanstack-vue-router   # 1.
 npx skilld add harlan-zw/vue-ecosystem-skills --skill tanstack-ai-vue       # 0.5.4
 ```
 
-### UI Libraries
+### UI
 
 ```bash
-npx skilld add harlan-zw/vue-ecosystem-skills --skill reka-ui      # 2.8.0
-npx skilld add harlan-zw/vue-ecosystem-skills --skill shadcn-vue   # 2.4.3
-npx skilld add harlan-zw/vue-ecosystem-skills --skill primevue     # 4.5.4
-npx skilld add harlan-zw/vue-ecosystem-skills --skill vuetify      # 4.0.0-beta.2
-npx skilld add harlan-zw/vue-ecosystem-skills --skill quasar       # 2.18.6
+npx skilld add harlan-zw/vue-ecosystem-skills --skill reka-ui          # 2.8.0
+npx skilld add harlan-zw/vue-ecosystem-skills --skill shadcn-vue       # 2.4.3
+npx skilld add harlan-zw/vue-ecosystem-skills --skill primevue         # 4.5.4
+npx skilld add harlan-zw/vue-ecosystem-skills --skill vuetify          # 4.0.0-beta.2
+npx skilld add harlan-zw/vue-ecosystem-skills --skill quasar           # 2.18.6
+npx skilld add harlan-zw/vue-ecosystem-skills --skill floating-ui-vue  # 1.1.10
+npx skilld add harlan-zw/vue-ecosystem-skills --skill vue-data-ui      # 3.15.2
+npx skilld add harlan-zw/vue-ecosystem-skills --skill unovis-vue       # 1.6.4
 ```
 
 ### Forms
 
 ```bash
-npx skilld add harlan-zw/vue-ecosystem-skills --skill formkit        # 1.7.2
-npx skilld add harlan-zw/vue-ecosystem-skills --skill vee-validate   # 4.15.1
-```
-
-### Data Visualization
-
-```bash
-npx skilld add harlan-zw/vue-ecosystem-skills --skill vue-data-ui    # 3.15.2
-npx skilld add harlan-zw/vue-ecosystem-skills --skill unovis-vue     # 1.6.4
-```
-
-### Positioning
-
-```bash
-npx skilld add harlan-zw/vue-ecosystem-skills --skill floating-ui-vue   # 1.1.10
+npx skilld add harlan-zw/vue-ecosystem-skills --skill formkit          # 1.7.2
+npx skilld add harlan-zw/vue-ecosystem-skills --skill vee-validate     # 4.15.1
 ```
 
 ### Animation
 
 ```bash
-npx skilld add harlan-zw/vue-ecosystem-skills --skill motion-vue   # 2.0.0-beta.4
+npx skilld add harlan-zw/vue-ecosystem-skills --skill motion-vue       # 2.0.0-beta.4
 ```
 
 ### VueUse
@@ -131,41 +121,17 @@ npx skilld add harlan-zw/vue-ecosystem-skills --skill vueuse-core           # 14
 npx skilld add harlan-zw/vue-ecosystem-skills --skill vueuse-shared         # 14.2.1
 npx skilld add harlan-zw/vue-ecosystem-skills --skill vueuse-components     # 14.2.1
 npx skilld add harlan-zw/vue-ecosystem-skills --skill vueuse-integrations   # 14.2.1
-npx skilld add harlan-zw/vue-ecosystem-skills --skill vueuse-head           # 2.0.0
 npx skilld add harlan-zw/vue-ecosystem-skills --skill vueuse-math           # 14.2.1
 npx skilld add harlan-zw/vue-ecosystem-skills --skill vueuse-motion         # 3.0.3
 ```
 
-### Tooling & DX
+### Tooling
 
 ```bash
 npx skilld add harlan-zw/vue-ecosystem-skills --skill vue-i18n     # 11.2.8
 npx skilld add harlan-zw/vue-ecosystem-skills --skill vitepress    # 1.6.4
 npx skilld add harlan-zw/vue-ecosystem-skills --skill tresjs       # 5.5.0
 ```
-
-## What's in Each Skill
-
-Each skill includes:
-
-- **API Changes** — Version-specific additions and breaking changes with source links
-- **Best Practices** — Patterns derived from official docs and real-world usage
-- **References** — Deep-dive files organized by source:
-  - `docs/` — Official documentation excerpts
-  - `issues/` — Bug reports, workarounds, edge cases from GitHub
-  - `discussions/` — Community Q&A, patterns, recipes
-  - `releases/` — Changelogs, breaking changes, new APIs
-
-## How Skills Are Generated
-
-Skills are generated using real package data:
-
-1. **Docs** are crawled from the official documentation site
-2. **Issues** are pulled from GitHub (bugs, workarounds, edge cases)
-3. **Discussions** are pulled from GitHub (Q&A, patterns, recipes)
-4. **Releases** are parsed from changelogs and release notes
-
-The SKILL.md for each package is then synthesized with version-specific API changes and best practices sourced directly from these references.
 
 ## Related
 
@@ -175,12 +141,6 @@ The SKILL.md for each package is then synthesized with version-specific API chan
 - [vueuse/vueuse-skills](https://github.com/vueuse/vueuse-skills) — Agent skills for VueUse
 - [onmax/nuxt-skills](https://github.com/onmax/nuxt-skills) — Agent skills for Nuxt
 - [RuleKit](https://rulekit.dev) — Paid curated agent rules for Vue/Nuxt by posva
-
-## Contributing
-
-1. Create a feature branch from `main`
-2. Submit a PR
-3. After approval, changes are merged
 
 ## License
 
