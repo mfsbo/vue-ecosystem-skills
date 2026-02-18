@@ -1,0 +1,58 @@
+---
+id: ImmediateStrategy
+title: ImmediateStrategy
+---
+
+# Class: ImmediateStrategy
+
+Defined in: activities/chat/stream/strategies.ts:12
+
+Immediate Strategy - emit on every chunk (default behavior)
+
+## Implements
+
+- [`ChunkStrategy`](../interfaces/ChunkStrategy.md)
+
+## Constructors
+
+### Constructor
+
+```ts
+new ImmediateStrategy(): ImmediateStrategy;
+```
+
+#### Returns
+
+`ImmediateStrategy`
+
+## Methods
+
+### shouldEmit()
+
+```ts
+shouldEmit(_chunk, _accumulated): boolean;
+```
+
+Defined in: activities/chat/stream/strategies.ts:13
+
+Called for each text chunk received
+
+#### Parameters
+
+##### \_chunk
+
+`string`
+
+##### \_accumulated
+
+`string`
+
+#### Returns
+
+`boolean`
+
+true if an update should be emitted now
+
+#### Implementation of
+
+[`ChunkStrategy`](../interfaces/ChunkStrategy.md).[`shouldEmit`](../interfaces/ChunkStrategy.md#shouldemit)

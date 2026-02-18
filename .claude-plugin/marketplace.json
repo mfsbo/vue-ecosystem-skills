@@ -1,0 +1,204 @@
+{
+  "name": "vue-ecosystem-skills",
+  "description": "AI agent skills for the Vue ecosystem, generated from real package sources.",
+  "plugins": [
+    {
+      "name": "formkit",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@formkit/core\". Consult for debugging, best practices, or modifying formkit.",
+      "skills": ["./skills/formkit-core-skilld"]
+    },
+    {
+      "name": "motion-vue",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"motion-v\". Consult for debugging, best practices, or modifying motion-v, motion vue.",
+      "skills": ["./skills/motion-v-skilld"]
+    },
+    {
+      "name": "pinia",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"pinia\". Consult for debugging, best practices, or modifying pinia.",
+      "skills": ["./skills/pinia-skilld"]
+    },
+    {
+      "name": "pinia-colada",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@pinia/colada\". Consult for debugging, best practices, or modifying pinia colada.",
+      "skills": ["./skills/pinia-colada-skilld"]
+    },
+    {
+      "name": "primevue",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"primevue\". Consult for debugging, best practices, or modifying primevue.",
+      "skills": ["./skills/primevue-skilld"]
+    },
+    {
+      "name": "quasar",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"quasar\". Consult for debugging, best practices, or modifying quasar.",
+      "skills": ["./skills/quasar-skilld"]
+    },
+    {
+      "name": "reka-ui",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"reka-ui\". Consult for debugging, best practices, or modifying reka-ui.",
+      "skills": ["./skills/reka-ui-skilld"]
+    },
+    {
+      "name": "shadcn-vue",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"shadcn-vue\". Consult for debugging, best practices, or modifying shadcn-vue.",
+      "skills": ["./skills/shadcn-vue-skilld"]
+    },
+    {
+      "name": "tanstack-ai-vue",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@tanstack/ai-vue\". Consult for debugging, best practices, or modifying tanstack ai vue.",
+      "skills": ["./skills/tanstack-ai-vue-skilld"]
+    },
+    {
+      "name": "tanstack-vue-form",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@tanstack/vue-form\". Consult for debugging, best practices, or modifying tanstack vue form.",
+      "skills": ["./skills/tanstack-vue-form-skilld"]
+    },
+    {
+      "name": "tanstack-vue-query",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@tanstack/vue-query\". Consult for debugging, best practices, or modifying tanstack vue query.",
+      "skills": ["./skills/tanstack-vue-query-skilld"]
+    },
+    {
+      "name": "tanstack-vue-router",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@tanstack/vue-router\". Consult for debugging, best practices, or modifying tanstack vue router.",
+      "skills": ["./skills/tanstack-vue-router-skilld"]
+    },
+    {
+      "name": "tanstack-vue-store",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@tanstack/vue-store\". Consult for debugging, best practices, or modifying tanstack vue store.",
+      "skills": ["./skills/tanstack-vue-store-skilld"]
+    },
+    {
+      "name": "tanstack-vue-table",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@tanstack/vue-table\". Consult for debugging, best practices, or modifying tanstack vue table.",
+      "skills": ["./skills/tanstack-vue-table-skilld"]
+    },
+    {
+      "name": "tanstack-vue-virtual",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@tanstack/vue-virtual\". Consult for debugging, best practices, or modifying tanstack vue virtual.",
+      "skills": ["./skills/tanstack-vue-virtual-skilld"]
+    },
+    {
+      "name": "tresjs",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@tresjs/core\". Consult for debugging, best practices, or modifying tresjs, tres.",
+      "skills": ["./skills/tresjs-core-skilld"]
+    },
+    {
+      "name": "unhead",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"unhead\". Consult for debugging, best practices, or modifying unhead.",
+      "skills": ["./skills/unhead-skilld"]
+    },
+    {
+      "name": "vee-validate",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"vee-validate\". Consult for debugging, best practices, or modifying vee-validate.",
+      "skills": ["./skills/vee-validate-skilld"]
+    },
+    {
+      "name": "vitepress",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"vitepress\". Consult for debugging, best practices, or modifying vitepress.",
+      "skills": ["./skills/vitepress-skilld"]
+    },
+    {
+      "name": "vue-i18n",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"vue-i18n\". Consult for debugging, best practices, or modifying vue-i18n.",
+      "skills": ["./skills/vue-i18n-skilld"]
+    },
+    {
+      "name": "vue-router",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"vue-router\". Consult for debugging, best practices, or modifying vue-router.",
+      "skills": ["./skills/vue-router-skilld"]
+    },
+    {
+      "name": "vue-test-utils",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@vue/test-utils\". Consult for debugging, best practices, or modifying vue test utils.",
+      "skills": ["./skills/vue-test-utils-skilld"]
+    },
+    {
+      "name": "vuetify",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"vuetify\". Consult for debugging, best practices, or modifying vuetify.",
+      "skills": ["./skills/vuetify-skilld"]
+    },
+    {
+      "name": "vueuse-components",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@vueuse/components\". Consult for debugging, best practices, or modifying vueuse components.",
+      "skills": ["./skills/vueuse-components-skilld"]
+    },
+    {
+      "name": "vueuse-core",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@vueuse/core\". Consult for debugging, best practices, or modifying vueuse core.",
+      "skills": ["./skills/vueuse-core-skilld"]
+    },
+    {
+      "name": "vueuse-head",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@vueuse/head\". Consult for debugging, best practices, or modifying vueuse head.",
+      "skills": ["./skills/vueuse-head-skilld"]
+    },
+    {
+      "name": "vueuse-integrations",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@vueuse/integrations\". Consult for debugging, best practices, or modifying vueuse integrations.",
+      "skills": ["./skills/vueuse-integrations-skilld"]
+    },
+    {
+      "name": "vueuse-math",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@vueuse/math\". Consult for debugging, best practices, or modifying vueuse math.",
+      "skills": ["./skills/vueuse-math-skilld"]
+    },
+    {
+      "name": "vueuse-motion",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@vueuse/motion\". Consult for debugging, best practices, or modifying vueuse motion.",
+      "skills": ["./skills/vueuse-motion-skilld"]
+    },
+    {
+      "name": "vue-data-ui",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"vue-data-ui\". Consult for debugging, best practices, or modifying vue-data-ui charts and data visualizations.",
+      "skills": ["./skills/vue-data-ui-skilld"]
+    },
+    {
+      "name": "unovis-vue",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@unovis/vue\" or \"@unovis/ts\". Consult for debugging, best practices, or modifying unovis charts and visualizations.",
+      "skills": ["./skills/unovis-vue-skilld"]
+    },
+    {
+      "name": "floating-ui-vue",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@floating-ui/vue\". Consult for debugging, best practices, or modifying floating-ui positioning.",
+      "skills": ["./skills/floating-ui-vue-skilld"]
+    },
+    {
+      "name": "vueuse-shared",
+      "source": "./",
+      "description": "ALWAYS use when writing code importing \"@vueuse/shared\". Consult for debugging, best practices, or modifying vueuse shared.",
+      "skills": ["./skills/vueuse-shared-skilld"]
+    }
+  ]
+}

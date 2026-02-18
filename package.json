@@ -1,0 +1,20 @@
+{
+  "name": "vue-ecosystem-skills",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.28.0",
+  "description": "AI skills for the Vue ecosystem",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harlan-zw/ai-skills-vue-ecosystem.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "catalog:dev-lint",
+    "eslint": "catalog:dev-lint"
+  }
+}

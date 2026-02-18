@@ -1,0 +1,50 @@
+---
+id: ToolCall
+title: ToolCall
+---
+
+# Interface: ToolCall
+
+Defined in: types.ts:87
+
+## Properties
+
+### function
+
+```ts
+function: object;
+```
+
+Defined in: types.ts:90
+
+#### arguments
+
+```ts
+arguments: string;
+```
+
+#### name
+
+```ts
+name: string;
+```
+
+***
+
+### id
+
+```ts
+id: string;
+```
+
+Defined in: types.ts:88
+
+***
+
+### type
+
+```ts
+type: "function";
+```
+
+Defined in: types.ts:89

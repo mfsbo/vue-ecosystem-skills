@@ -1,0 +1,11 @@
+catalogMode: prefer
+shellEmulator: true
+trustPolicy: no-downgrade
+
+catalogs:
+  dev-lint:
+    '@antfu/eslint-config': ^6.7.3
+    eslint: ^9.39.2
+
+onlyBuiltDependencies:
+  - esbuild

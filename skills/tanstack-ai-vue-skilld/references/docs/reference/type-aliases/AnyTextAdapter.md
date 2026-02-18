@@ -1,0 +1,15 @@
+---
+id: AnyTextAdapter
+title: AnyTextAdapter
+---
+
+# Type Alias: AnyTextAdapter
+
+```ts
+type AnyTextAdapter = TextAdapter<any, any, any, any>;
+```
+
+Defined in: activities/chat/adapter.ts:98
+
+A TextAdapter with any/unknown type parameters.
+Useful as a constraint in generic functions and interfaces.
