@@ -1,6 +1,9 @@
 {
   "name": "vue-ecosystem-skills",
   "description": "AI agent skills for the Vue ecosystem, generated from real package sources.",
+  "owner": {
+    "name": "Harlan Wilton"
+  },
   "plugins": [
     {
       "name": "formkit",
